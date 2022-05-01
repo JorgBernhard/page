@@ -5,7 +5,7 @@
 }
 
 .background {
-    background-color: rgb(232, 238, 238);
+    background-color: rgb(47, 47, 47);
     border-radius: 15px;
 }
 
@@ -27,6 +27,14 @@
     margin-left: 50px;
     margin-top: 30px;
 }
+h1 {
+    position: absolute;
+    color: rgb(251, 185, 5);
+    font-family: 'Rubik', sans-serif; 
+    font-size: 80px;
+    margin-left: 280px;
+    margin-top: 70px;
+}
 
 .links {
     margin-top: 20px;
@@ -43,7 +51,7 @@
 }
 
 .links a:hover {
-    color: rgb(160, 225, 246);
+    color: rgb(251, 185, 5);
 }
 
 .center {
@@ -53,6 +61,24 @@
     align-items:center;
     margin-top:60px;
     margin-bottom: 60px;
+}
+h3 {
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 70px;
+    font-family: 'Rubik', sans-serif; 
+    font-size: 20px;
+    color: white;
+}
+a {
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 100px;
+    color: black;
+}
+a img {
+    border-radius: 5px;
+    margin-left: 150px;
 }
 
 .center img {
@@ -75,7 +101,7 @@
 .center2 h2 {
     text-align: center;
     font-family: 'Rubik', sans-serif; 
-    color: rgb(35, 35, 36);
+    color: white;
     font-size: 20px;
 }
 .center2 img {
