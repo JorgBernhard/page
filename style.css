@@ -23,7 +23,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 8px solid rgb(232, 238, 238);
+    border: 8px solid rgb(251, 185, 5);
     margin-left: 50px;
     margin-top: 30px;
 }
@@ -33,7 +33,7 @@
     font-family: 'Rubik', sans-serif; 
     font-weight: 700;
     font-size: 20px;
-    color: rgb(251, 185, 5);
+    color: white;
     margin-left: 500px;
     margin-top: 60px;
 }
@@ -54,7 +54,7 @@ p {
     font-family: 'Rubik', sans-serif; 
     font-weight: 700;
     font-size: 20px;
-    color:rgb(251, 185, 5);
+    color:white;
     margin-left: 500px;
     margin-top: 180px;
 }
