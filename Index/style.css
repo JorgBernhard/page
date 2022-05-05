@@ -1,0 +1,206 @@
+html {
+    background-image: url("../assets/background2.svg");
+    /* font-family: 'Acme', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Koulen', cursive;
+    font-family: 'Rubik', sans-serif; */
+   
+}
+ body {
+    all:unset;
+}
+body .background {
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgba(192, 214, 220, 0.90);
+        
+    width: calc(100vw - 203px);
+    height: calc(100vh - 100px);
+
+    border-radius: 150px 0 0 25px ;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+
+    margin-left: 200px;  
+    margin-top: -20px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: 'Acme', sans-serif;
+    font-size: 3rem;
+    color: white;
+    
+    margin-left: 300px;  
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+.perfil {
+    position: absolute;
+   
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    border: 3px solid white;
+
+    margin-left: -105px;
+    margin-top: -60px;
+    transform: rotate(-15deg);
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.8rem;
+    color: white;
+
+    margin-top: 200px;
+    margin-left: -180px;
+}
+.linked, .github, .email, .resume {
+    all: unset;
+
+    text-align: center;
+    padding: 6px;
+
+    background-color:rgba(68, 170, 158, 0.95);
+    border-radius: 8px;
+
+    width: 120px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+
+    cursor: pointer;
+}
+.linked:hover, .github:hover, .email:hover, .resume:hover  {
+    background-color: rgba(255, 98, 0, 0.95);
+    margin-left: 30px;
+}
+.cubos img {
+    width: 120px;
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.cubos:hover {
+    margin-left: 30px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+.nome {
+    position: absolute;
+    font-family: 'Acme', sans-serif;
+    font-size: 3rem;
+    color:rgba(255, 98, 0, 0.95);
+    
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.eu {
+    font-family: 'Acme', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(26, 61, 61);
+    margin-top: 120px;
+    margin-left: 80px;
+    width: 700px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(26, 61, 61);
+    
+}
+.me {
+    font-family: 'Acme', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(26, 61, 61);
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 700px;
+    
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(26, 61, 61);
+   
+}
+.hard{ 
+    font-family: 'Acme', sans-serif;
+    font-size: 1rem;
+    color: rgb(26, 61, 61); 
+    margin-left: 80px;
+    margin-top: -10px;
+}
+.icon {
+    margin-left: 80px;
+    
+}
+.icon img {
+    height: 40px;
+    margin-right: 4px;
+    
+}
+.total-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 120px;
+    padding-left: 20px; 
+    border-left: 1px solid rgb(26, 61, 61);
+    height: 400px;
+}
+.idiomas {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+    font-size: 1rem;
+    color: rgba(255, 98, 0, 0.95);
+    padding-bottom: 3px;
+    
+}
+span {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+    font-size: 1rem;
+    color: rgb(26, 61, 61);
+    padding-bottom: 3px;
+    
+}
+.soft {
+    margin-top: 60px;
+    margin-bottom: -10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+    font-size: 1rem;
+    color: rgba(255, 98, 0, 0.95);
+    
+}
+li {
+    margin-left: -40px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+    font-size: 1rem;
+    color: rgb(26, 61, 61);
+    padding-bottom: 3px;
+
+}
