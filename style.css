@@ -4,7 +4,7 @@ html {
 }
  body {
     all:unset;
-    max-width: 1400px;
+    
 }
 body .background {
     display: flex;
@@ -12,13 +12,12 @@ body .background {
     
     background-color: rgba(192, 214, 220, 0.90);
         
-    width: calc(100vw - 203px);
-    height: calc(100vh - 100px);
+    width: 80vw ;
+    height: calc(100vh - 115px);
 
-    border-radius: 150px 0 0 25px ;
-    border-left: 3px solid white;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
+    border-radius:25px ;
+    border: 3px solid white;
+  
 
     margin-left: 200px;  
     margin-top: -20px;
@@ -27,7 +26,7 @@ body .background {
     display: flex;
     flex-direction: row;
     position: fixed;
-    margin-left:1100px;
+    margin-left:75%;
     margin-top: -80px;
 }
 
@@ -83,29 +82,13 @@ body .background {
     flex-direction: row;
     position: relative;
     font-family: 'Acme', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     
     margin-left: 300px;  
     margin-top: 20px;
 }
-.front {
-    position: absolute;
-    font-family: 'Acme', sans-serif;
-    font-size: 2rem;
-    color: rgba(255, 98, 0, 0.95);
-    margin-left: 800px;
-    margin-top: -70px;
-}
-.back {
-    position: absolute;
-    font-family: 'Acme', sans-serif;
-    font-size: 2rem;
-    color: rgba(255, 98, 0, 0.95);
-    margin-left: 690px;
-    margin-top: -70px;
-    transform: rotate(-20px);
-}
+
 .container {
     display: flex;
     flex-direction: row;
