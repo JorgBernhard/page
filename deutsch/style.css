@@ -235,6 +235,16 @@ span {
     padding-bottom: 3px;
     
 }
+.border {
+    width: 160px;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: -50px;
+    margin-right: 160px;
+    border-top: 1px solid rgb(26, 61, 61);
+    padding: 10px;
+    
+}
 .soft {
     margin-top: 60px;
     margin-bottom: -10px;
