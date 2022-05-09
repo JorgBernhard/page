@@ -16,12 +16,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
+    width: 1060px;
 }
 .header {
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 1060px;
     height: 60px;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +94,7 @@ body {
     
     background-color: rgba(192, 214, 220, 0.90);
         
-    width: 80vw;
+    width: 1060px;
     height: calc(100vh - 115px);
 
     border-radius:25px ;
@@ -133,7 +133,7 @@ body {
     margin-top: 40px;
     margin-left: -180px;
 }
-.linked, .github, .email, .resume, .cv, .certificado, .certificado2 {
+.linked, .github, .email, .resume, .cv, .certificado, .certificado2, .handy {
     all: unset;
 
     text-align: center;
@@ -153,9 +153,9 @@ body {
     margin-left: 30px;
 }
 .cubos img {
-    width: 120px;
+    width: 131px;
     height: 60px;
-    border-radius: 15px;
+    border-radius: 8px;
     cursor: pointer;
     margin-left: 10px;
 }
@@ -220,7 +220,7 @@ body {
 .total-right {
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 30px;
     margin-top: 120px;
     padding-left: 20px; 
     border-left: 1px solid rgb(26, 61, 61);
