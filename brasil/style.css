@@ -1,33 +1,45 @@
-html {
+body {
     background-image: url("../assets/background2.svg");
+}
 
+.alles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    
 }
- body {
-    all:unset;
+
+.all-site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
 }
-body .background {
+.header {
     display: flex;
     flex-direction: row;
-    
-    background-color: rgba(192, 214, 220, 0.90);
-        
-    width: 80vw ;
-    height: calc(100vh - 115px);
-
-    border-radius:25px ;
-    border: 3px solid white;
-  
-
-    margin-left: 200px;  
-    margin-top: -20px;
+    width: 80vw;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
 }
+.header-text {
+    display: flex;
+    font-family: 'Acme', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 140px;
+}    
 .bandeiras {
     display: flex;
     flex-direction: row;
-    position: fixed;
-    margin-left:75%;
-    margin-top: -80px;
+    height: 40px;
+    align-items: center;
 }
+
 
 .brasil {
     all:unset;
@@ -38,8 +50,7 @@ body .background {
     padding: 10px;
     background-color: rgba(255, 98, 0, 0.95);
     border-radius: 5px;
-    cursor: pointer;
-  }
+}
 .alemanha {
     all:unset;
     display: flex;
@@ -77,18 +88,19 @@ body .background {
 .alemanha:hover {
     background-color: rgba(255, 98, 0, 0.95);
 }
-.header {
+.background {
     display: flex;
     flex-direction: row;
-    position: relative;
-    font-family: 'Acme', sans-serif;
-    font-size: 2.5rem;
-    color: white;
     
-    margin-left: 300px;  
-    margin-top: 20px;
-}
+    background-color: rgba(192, 214, 220, 0.90);
+        
+    width: 80vw;
+    height: calc(100vh - 115px);
 
+    border-radius:25px ;
+    border: 3px solid white;
+
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -98,8 +110,6 @@ body .background {
     flex-direction: column;
 }
 .perfil {
-    position: absolute;
-   
     width: 200px;
     height: 200px;
 
@@ -115,12 +125,12 @@ body .background {
 .contact {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    
     font-family: 'Rubik', sans-serif;
     font-size: 0.8rem;
     color: white;
 
-    margin-top: 200px;
+    margin-top: 40px;
     margin-left: -180px;
 }
 .linked, .github, .email, .resume, .cv, .certificado, .certificado2 {
@@ -158,21 +168,21 @@ body .background {
     flex-direction: column;
 }
 .nome {
-    position: absolute;
+   
     font-family: 'Acme', sans-serif;
     font-size: 3rem;
     color:rgba(255, 98, 0, 0.95);
     
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 60px;
 }
 .eu {
     font-family: 'Acme', sans-serif;
     font-size: 1rem;
     font-weight: 100;
     color: rgb(26, 61, 61);
-    margin-top: 100px;
-    margin-left:100px;
+    margin-top: 0px;
+    margin-left:20px;
     width: 700px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgb(26, 61, 61);
@@ -184,7 +194,7 @@ body .background {
     font-weight: 100;
     color: rgb(26, 61, 61);
     margin-top: -10px;
-    margin-left: 100px;
+    margin-left: 20px;
     width: 700px;
     
     padding-bottom: 10px;
@@ -195,11 +205,11 @@ body .background {
     font-family: 'Acme', sans-serif;
     font-size: 1rem;
     color: rgb(26, 61, 61); 
-    margin-left: 100px;
+    margin-left: 20px;
     margin-top: -10px;
 }
 .icon {
-    margin-left: 100px;
+    margin-left: 20px;
     
 }
 .icon img {
@@ -233,6 +243,7 @@ span {
     color: rgb(26, 61, 61);
     padding-bottom: 3px;
     
+    
 }
 .border {
     width: 160px;
@@ -262,5 +273,6 @@ li {
     font-size: 1rem;
     color: rgb(26, 61, 61);
     padding-bottom: 3px;
+    
 
 }
