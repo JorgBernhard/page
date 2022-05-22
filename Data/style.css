@@ -23,7 +23,7 @@ body {
     
     display: flex;
     flex-direction: row;
-    max-width: 1300px;
+    width: 1300px;
     height: 100px;
     align-items: center;
     justify-content: space-between;
@@ -44,12 +44,12 @@ body {
 }
 .home {
     all: unset;
-    color:rgb(255, 230, 0);
+    color:rgb(255, 255, 255);
     margin-right: 10px;
     cursor: pointer;
 }
 .home:hover {
-    color:rgb(255, 255, 255);
+    color:rgb(255, 230, 0);
     margin-right: 10px;
 }
 .portfolio {
@@ -74,9 +74,10 @@ body {
     all: unset;
     cursor: pointer;
     margin-right: 10px;
+    color: rgb(255, 230, 0);
 }
 .data:hover {
-    color: rgb(255, 230, 0);
+    color: rgb(255, 255, 255);
     margin-right: 10px;
 }
 .contact {
@@ -88,65 +89,81 @@ body {
     color: rgb(255, 230, 0);
     margin-right: 10px;
 }
-
+h3 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 24px;
+    font-weight: 100;
+    color: rgb(255, 230, 0);
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
 .container {
     display: flex;
     flex-direction: column;  
 }
-
-.perfil {
-    opacity: 0.3;
-    width: 1300px;
-    margin-top: -120px;
+.docs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     
 }
-
-h3 {
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 24px;
-    font-weight: 400;
-    color: rgb(255, 230, 0);
-    margin-left: 80px;
-    margin-bottom: -10px;
+.resume {
+    width: 900px;
+    border-radius: 20px;
 }
-.container h1 {
-    font-family: 'Smooch', cursive;
-    font-weight: 100;
-    font-size: 60px;
-    color: rgb(255, 230, 0, 0.5);
-    margin-left: 900px;
-    margin-top: -140px;
-    transform: rotate(-5deg);
-    margin-bottom: 120px;
-}
-.adds {
-    text-align: center;
-    margin-bottom: 40px;
-
-}
-.linked { 
+.file {
     all: unset;
     font-family: 'Montserrat', sans-serif; 
-    font-size: 20px;
+    color: white;
+    height: 20px;
+    font-size: 18px;
     font-weight: 100;
-    color: white;  
+    margin-left: 20px;
+    margin-bottom: 50px;
     cursor: pointer;
 }
-.linked:hover {
+.file:hover {
     color: rgb(255, 230, 0);
 }
-.github { 
+.docss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+}
+.certificats {
+    width: 600px;
+    border-radius: 20px;
+    
+}
+.certificat01 {
+    margin-left: 100px;
+    width: 900px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.certificat02 {
+    margin-left: 100px;
+    width: 900px;
+    border-radius: 20px;
+}
+.doc {
     all: unset;
     font-family: 'Montserrat', sans-serif; 
-    font-size: 20px;
-    font-weight: 100;
+    width: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border:1px solid white;
     color: white;
-    margin-left: 50px;
-    border-left: 1px solid white;
-    padding-left: 50px;
-    cursor: pointer;  
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 1200px;
+    cursor: pointer;
 }
-.github:hover {
+.doc:hover {
     color: rgb(255, 230, 0);
+    border:1px solid rgb(255, 230, 0);
 }
 footer {
     font-family: 'Montserrat', sans-serif; 
@@ -155,4 +172,5 @@ footer {
 
     text-align: center;
     color: white;
+    margin-top: 200px;
 }

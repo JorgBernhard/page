@@ -1,0 +1,209 @@
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Smooch', cursive; */
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: hsla(0, 0%, 0%, 0.994);
+    
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+    margin-left: 20px;
+    
+}
+.header  {
+    flex-direction: row;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.home {
+    all: unset;
+    color:white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.home:hover {
+    color:rgb(255, 230, 0);
+    margin-right: 10px;
+}
+.portfolio {
+    all: unset;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.portfolio:hover {
+    color: rgb(255, 230, 0);
+    margin-right: 10px;
+}
+.projects {
+    all: unset;
+    cursor: pointer;
+    margin-right: 10px;
+    color: rgb(255, 230, 0);
+}
+.projects:hover {
+    color: white;
+    margin-right: 10px;
+}
+.data {
+    all: unset;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.data:hover {
+    color: rgb(255, 230, 0);
+    margin-right: 10px;
+}
+.contact {
+    all: unset;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.contact:hover {
+    color: rgb(255, 230, 0);
+    margin-right: 10px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 24px;
+    font-weight: 100;
+    color: rgb(255, 230, 0);
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+p {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 100;
+    width: 400px;
+    color: white;
+    margin-left: 100px;
+}
+.vcard {
+    width: 500px;
+    margin-left: 700px;
+    margin-top: -120px;
+    padding:30px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.projects-2 {
+    margin-top: 100px;
+    border-top: 1px solid white;
+}
+.figma-card {
+    width: 600px;
+    margin-top: 50px;
+    padding:30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+.figma-header {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 24px;
+    font-weight: 100;
+    color: rgb(255, 230, 0);
+    margin-left: 780px;
+    margin-top: -340px;
+}
+.figma-text {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 100;
+    width: 400px;
+    color: white;
+    margin-left: 780px;
+    margin-bottom: 300px;
+}
+.projects-3 {
+    margin-top: 100px;
+    border-top: 1px solid white;
+}
+.background {
+    width: 500px;
+    margin-left: 600px;
+    margin-top: -120px;
+    padding:30px;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+.background2 {
+    width: 500px;
+    padding:30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: -120px;
+}
+.background3 {
+    width: 500px;
+    margin-left: 600px;
+    margin-top: -160px;
+    padding:30px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.background4 {
+    width: 500px;
+    padding:30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: -120px;
+    margin-bottom: 60px;
+}
+.doc {
+    all: unset;
+    opacity: 0.6;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 5px;
+    border-radius: 10px;
+    border:1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    cursor: pointer;
+    margin-left: 1150px;
+    margin-top: -120px;
+    
+}
+.doc:hover {
+    color: rgb(255, 230, 0);
+    border:1px solid rgb(255, 230, 0);
+}
+footer {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 14px;
+    font-weight: 100;
+
+    text-align: center;
+    color: white;
+}

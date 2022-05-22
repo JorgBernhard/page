@@ -1,0 +1,221 @@
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Smooch', cursive; */
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: hsla(0, 0%, 0%, 0.994);
+    
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+}
+.header {
+    
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+    margin-left: 20px;
+    
+}
+.header  {
+    flex-direction: row;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.home {
+    all: unset;
+    color:rgb(255, 255, 255);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.home:hover {
+    color:rgb(255, 230, 0);
+    margin-right: 10px;
+}
+.portfolio {
+    all: unset;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.portfolio:hover {
+    color: rgb(255, 230, 0);
+    margin-right: 10px;
+}
+.projects {
+    all: unset;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.projects:hover {
+    color: rgb(255, 230, 0);
+    margin-right: 10px;
+}
+.data {
+    all: unset;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.data:hover {
+    color: rgb(255, 230, 0);
+    margin-right: 10px;
+}
+.contact {
+    all: unset;
+    cursor: pointer;
+    color: rgb(255, 230, 0);
+    margin-right: 10px;
+}
+.contact:hover {
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+}
+
+.natal {
+    opacity: 0.5;
+    width: 800px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+.jorg {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:solid 1px rgb(255, 230, 0);
+
+    margin-left: 300px;
+    margin-top: 450px;
+}
+.add {
+    display: flex;
+    flex-direction: column;  
+}
+.number1 {
+    
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 24px;
+    font-weight: 100; 
+    color: rgb(255, 230, 0);
+    margin-top: 180px;
+    margin-bottom: 10px;
+   
+}
+.number2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 24px;
+    font-weight: 100; 
+    color: rgb(255, 230, 0);
+    margin-top: 0px;
+}
+.number3 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px;
+    font-weight: 100; 
+    color: white;
+    margin-top: 20px;
+    
+}
+.number4 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px;
+    font-weight: 100; 
+    color: white;
+    margin-top: -15px;
+}
+.number5 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 100; 
+    color: white;
+    margin-top: -15px;
+}
+.number6 {
+    
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 100; 
+    color: white;
+    margin-top: -15px;
+}
+.number7 {
+    
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 100; 
+    color: white;
+    margin-top: -15px;
+}
+.number8 {
+   
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 100; 
+    color: white;
+    margin-top: -15px;
+}
+.number9 {
+    
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 100; 
+    color: white;
+    margin-top: -15px;
+}
+.number10 {
+    
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 100; 
+    color: white;
+    margin-top: -15px;
+}
+.email {
+    all: unset;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 100; 
+    color: white;
+    margin-top: -15px;
+    cursor: pointer;
+}
+.email:hover {
+    color: rgb(255, 230, 0);
+    
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
